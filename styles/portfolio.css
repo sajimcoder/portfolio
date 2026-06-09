@@ -11,6 +11,10 @@
   color: #fd6e0a;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .dark-2 {
   color: #474747;
 }
@@ -186,4 +190,40 @@ main {
   color: #fff;
   cursor: pointer;
 
+}
+
+/* project section */
+.project-titel {
+  color: #fd6e0a;
+}
+
+.project-description {
+  padding: 0 116px;
+}
+
+.projects-section {
+  margin-top: 130px;
+
+
+}
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 130px;
+
+}
+
+.skill {
+  margin-top: 50px;
+  padding: 70px 40px 30px 40px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill:hover {
+  background-color: #fd6e0a;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.658);
 }
