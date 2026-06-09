@@ -227,3 +227,121 @@ main {
   cursor: pointer;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.658);
 }
+
+/* resume section */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.exp {
+  font-size: 16px;
+  color: #757575;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.experience-sub-title {
+  font-size: 20px;
+  color: #757575;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.experience-title {
+  font-size: 25px;
+  color: #474747;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.resume-column-title {
+  font-size: 30px;
+  color: #474747;
+  font-weight: 700;
+}
+
+hr {
+  color: #D1D1D1;
+}
+
+.section-titel {
+  margin-bottom: 130px;
+  margin-top: 130px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.resume-span {
+  background-color: #fd6e0a;
+  padding: 0 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.resume-btn {
+  margin-top: 20px
+}
+
+.cv-button {
+  margin-bottom: 113px;
+}
+
+/* footer */
+.footer-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+
+}
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+
+}
+
+.footer-col {
+  width: 50%;
+}
+
+form input {
+  height: 64px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+textarea {
+  height: 150px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  resize: none;
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+  border: #fd6e0a 2px solid;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
