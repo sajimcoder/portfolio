@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -40,6 +45,8 @@
 }
 
 .section-titel {
+  margin-bottom: 130px;
+  margin-top: 130px;
   font-size: 35px;
   font-weight: bold;
   color: #181818;
@@ -196,9 +203,7 @@ main {
 }
 
 /* project section */
-.project-titel {
-  color: #fd6e0a;
-}
+
 
 .project-description {
   padding: 0 116px;
@@ -206,8 +211,6 @@ main {
 
 .projects-section {
   margin-top: 130px;
-
-
 }
 
 .skill-container {
@@ -272,13 +275,7 @@ hr {
   color: #D1D1D1;
 }
 
-.section-titel {
-  margin-bottom: 130px;
-  margin-top: 130px;
-  font-size: 35px;
-  font-weight: bold;
-  color: #181818;
-}
+
 
 .resume-span {
   background-color: #fd6e0a;
@@ -352,3 +349,117 @@ textarea:focus {
 a {
   text-decoration: none;
 }
+
+/* responsive media query  */
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+/* skill section */
+
+
+
+
+  .skill-container, .resume-content{
+   flex-direction: column; 
+  }
+
+  .project-description{
+    padding: 0 20px;
+  }
+
+  .section-titel{
+    margin-bottom: 50px;
+  }
+
+ /* resume-section */
+
+ .resume-content{
+  margin-left: 5px;
+  margin-right: 5px;
+ }
+.resume-span{
+  background-color: white;
+  padding: 0 0px;
+  color: #000000;
+  }
+.responsive-resume{
+  background-color: #fd6e0a;
+  padding: 0 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+.resume-column-title{
+  color: #fd6e0a;
+  
+}
+
+footer {
+  padding: 20px 20px;
+  flex-direction: column;
+
+}
+
+.footer-col {
+  width: 90%;
+}
+
+.about-items{
+  flex-direction: column;
+  
+}
+.about-item{
+  margin-bottom: 30px;
+}
+.about {
+  
+  padding: 30px 20px;
+
+  margin-top: 130px;
+}
+.banner{
+  flex-direction: column;
+  margin: 10px;
+}
+ .sajim-image{
+  width: 100%;
+  margin-top: 50px;
+ }
+ .header{
+  background-image: none;
+  
+ }
+ nav{
+  flex-direction: column;
+ }
+
+ nav> ul{
+  flex-direction: column;
+  
+ }
+ nav> ul> li{
+  margin-top: 20px;
+  margin-left:0 ;
+ } 
+
+ .btn-contact, .btn-cv{
+  margin-top: 10px;
+ }
+.hello-welcom {
+  border-top: 5px solid #fd6e0a;
+  font-size: 38px;
+}
+.btn-hire{
+   white-space: nowrap;
+   padding: 10px 30px;
+   margin-bottom: 70px;
+}
+
+
+
+
+}
+
